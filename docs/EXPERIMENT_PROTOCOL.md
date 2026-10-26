@@ -25,11 +25,5 @@ How do full fine-tuning and LoRA compare to the untuned FLAN-T5 Small model on t
 - Historical financial sentences are not a measure of contemporary investment returns or safe financial advice.
 - Do not invent metrics before executing Colab; report only observed results.
 
-## Required evidence for report and viva
+## Saved experiment artefacts
 `source_manifest.json`, `runtime_config.json`, `split_manifest.csv`, `validation_model_comparison.csv`, `adapter_selection.json`, `*_training.json`, `*_history.csv`, `final_test_metrics.csv`, `macro_f1_bootstrap_ci.csv`, `paired_bootstrap_differences.csv`, `prompt_sensitivity.csv`, confusion-matrix images, MODEL_CARD.md and training checkpoint metadata.
-
-## Paper mapping
-- **Data/method:** Source SHA256, split counts, architecture, training configuration, LoRA target modules and seed.
-- **Results:** Held-out scores with uncertainty, per-class confusion patterns, efficiency and rank validation comparison.
-- **Discussion:** Error taxonomy, invalid outputs, prompt sensitivity, resources and limitations.
-- **Ethics/legal:** CC BY-NC-SA 3.0 attribution, domain bias, historical label limitation and human oversight.
