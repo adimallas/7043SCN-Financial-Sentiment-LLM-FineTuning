@@ -100,4 +100,6 @@ The local checks reproduce metrics from saved predictions without retraining; se
 - Full fine-tuning achieved the highest point estimate on the held-out test set; the paired bootstrap interval does not support claiming a definitive superiority over LoRA.
 - LoRA reduced the trainable weight count by approximately 99.1% and recorded training time by approximately 46.5%, while remaining sensitive to the phrasing of the instruction.
 - Findings are limited to historical English financial news, one fixed split, and **one training seed**. Temporal transfer, fresh market news and calibration are untested.
-
+- 
+## Task-1 Viva video Link
+https://livecoventryac-my.sharepoint.com/:v:/g/personal/adimallas_uni_coventry_ac_uk/IQDSxwRQtDbkT7jKTqc6Ylo5AZ3uPmo6f7rDpDe1gxcNn4U?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=VaXuMH
