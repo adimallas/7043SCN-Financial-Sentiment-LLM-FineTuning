@@ -65,7 +65,7 @@ flowchart LR
 | [`paper/`](paper/) | IEEE paper PDF and editable LaTeX source/figures |
 | [`tests/`](tests/) | Structural and scientific offline checks |
 | [`scripts/verify_results.py`](scripts/verify_results.py) | Recomputes key test metrics from recorded predictions |
-| [`docs/`](docs/) | Protocol, independent audit, manuscript QA, assessment map and limitations |
+| [`docs/`](docs/) | Experimental protocol and reproducibility documentation |
 
 ## Reproduce the study
 
@@ -74,10 +74,10 @@ flowchart LR
 1. Upload the root notebook to [Google Colab](https://colab.research.google.com/).
 2. Choose **Python 3 + T4 GPU** or stronger; use the original documented configuration for like-for-like comparisons.
 3. Execute the installation cell and restart the runtime if prompted. Run the notebook from the beginning.
-4. Verify the pre-training forward-pass preflight and the final `FINAL AUDIT PASSED` message.
-5. Keep the final experiment ZIP and privately back up large model checkpoints; they are deliberately not part of the lightweight results archive.
+4. Execute the complete notebook and inspect the saved experiment outputs.
+5. Save the generated results archive. Full training weights are not included in this lightweight repository.
 
-**Local evidence and code tests (no GPU):**
+**Local analysis (no GPU):**
 
 ```bash
 python -m pip install pytest nbformat numpy pandas scikit-learn
@@ -92,7 +92,7 @@ python -m pip install -r requirements.txt
 python task1_pipeline.py
 ```
 
-The offline checks verify code and retained measurements; they do **not** rerun the original Colab training, so they are not evidence of multi-seed reproducibility. See [`docs/REPRODUCIBILITY.md`](docs/REPRODUCIBILITY.md).
+The local checks reproduce metrics from saved predictions without retraining; see [`docs/REPRODUCIBILITY.md`](docs/REPRODUCIBILITY.md) for the full experimental setup.
 
 ## What the results mean
 
