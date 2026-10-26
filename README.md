@@ -101,10 +101,3 @@ The offline checks verify code and retained measurements; they do **not** rerun 
 - LoRA reduced the trainable weight count by approximately 99.1% and recorded training time by approximately 46.5%, while remaining sensitive to the phrasing of the instruction.
 - Findings are limited to historical English financial news, one fixed split, and **one training seed**. Temporal transfer, fresh market news and calibration are untested.
 
-## Use boundaries and attribution
-
-The dataset is distributed under **CC BY-NC-SA 3.0** terms; check the original source before redistribution. This project does not provide investment advice and should not be used for automated trading. The public model and dataset retain their own licenses. References and methodological caveats are in the IEEE paper and [`docs/EXPERIMENT_PROTOCOL.md`](docs/EXPERIMENT_PROTOCOL.md).
-
-## Submission notes
-
-Task 1 requires a **maximum-six-page IEEE A4 scientific paper**, the code repository and a **separate 3–5-minute viva**. The university brief also requires the Task 2 repository URL at the end of the Task 1 report. The manuscript stored here is the research version; its final submitted edition must be checked after the real GitHub URLs are available. See [`docs/PUBLISHING_CHECKLIST.md`](docs/PUBLISHING_CHECKLIST.md).
