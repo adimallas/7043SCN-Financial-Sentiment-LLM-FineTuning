@@ -1,0 +1,10 @@
+{
+  "source_url": "https://huggingface.co/datasets/takala/financial_phrasebank/resolve/main/data/FinancialPhraseBank-v1.0.zip",
+  "archive_sha256": "0e1a06c4900fdae46091d031068601e3773ba067c7cecb5b0da1dcba5ce989a6",
+  "archive_member": "FinancialPhraseBank-v1.0/Sentences_75Agree.txt",
+  "raw_rows": 3453,
+  "deduplicated_rows": 3448,
+  "duplicate_rows_removed": 5,
+  "license": "CC BY-NC-SA 3.0",
+  "reference": "Malo et al. (2014), Good debt or bad debt: Detecting semantic orientations in economic texts"
+}

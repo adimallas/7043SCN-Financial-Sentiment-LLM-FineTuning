@@ -1,0 +1,22 @@
+{
+  "model": "baseline",
+  "split": "test",
+  "prompt_variant": "alternative",
+  "n": 518,
+  "accuracy": 0.23938223938223938,
+  "macro_f1": 0.23189452961380583,
+  "weighted_f1": 0.129410401228069,
+  "macro_precision": 0.16072976969150188,
+  "macro_recall": 0.4862155388471178,
+  "invalid_outputs": 0,
+  "invalid_rate": 0.0,
+  "f1_negative": 0.36416184971098264,
+  "recall_negative": 1.0,
+  "precision_negative": 0.2226148409893993,
+  "f1_neutral": 0.0,
+  "recall_neutral": 0.0,
+  "precision_neutral": 0.0,
+  "f1_positive": 0.33152173913043476,
+  "recall_positive": 0.45864661654135336,
+  "precision_positive": 0.25957446808510637
+}

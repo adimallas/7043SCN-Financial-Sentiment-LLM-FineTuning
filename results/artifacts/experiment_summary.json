@@ -1,0 +1,21 @@
+{
+  "experiment_status": "complete_three_way",
+  "student": {
+    "name": "Sampath Adimalla",
+    "student_id": "17522555",
+    "module": "7043SCN"
+  },
+  "source_sha256": "0e1a06c4900fdae46091d031068601e3773ba067c7cecb5b0da1dcba5ce989a6",
+  "run_count": 3,
+  "selected_lora": "lora_r16",
+  "final_test_models": [
+    "baseline",
+    "full_finetuning",
+    "lora_r16"
+  ],
+  "result_paths": [
+    "reports/final_test_metrics.csv",
+    "reports/prompt_sensitivity.csv",
+    "reports/macro_f1_bootstrap_ci.csv"
+  ]
+}

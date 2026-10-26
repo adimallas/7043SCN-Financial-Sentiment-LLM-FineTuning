@@ -1,0 +1,14 @@
+{
+  "selection_set": "validation",
+  "metric": "macro_f1",
+  "tie_breaker": "smaller rank",
+  "selected_lora": "lora_r16",
+  "ranks_considered": [
+    8,
+    16
+  ],
+  "validation_macro_f1": {
+    "lora_r8": 0.8898995874482537,
+    "lora_r16": 0.8942884190010099
+  }
+}

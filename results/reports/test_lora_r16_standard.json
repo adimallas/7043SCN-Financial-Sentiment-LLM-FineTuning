@@ -1,0 +1,22 @@
+{
+  "model": "lora_r16",
+  "split": "test",
+  "prompt_variant": "standard",
+  "n": 518,
+  "accuracy": 0.916988416988417,
+  "macro_f1": 0.9085082486055671,
+  "weighted_f1": 0.9172496853709399,
+  "macro_precision": 0.9109933999645515,
+  "macro_recall": 0.9062571888658845,
+  "invalid_outputs": 0,
+  "invalid_rate": 0.0,
+  "f1_negative": 0.9354838709677419,
+  "recall_negative": 0.9206349206349206,
+  "precision_negative": 0.9508196721311475,
+  "f1_neutral": 0.942457231726283,
+  "recall_neutral": 0.9409937888198758,
+  "precision_neutral": 0.9439252336448598,
+  "f1_positive": 0.8475836431226765,
+  "recall_positive": 0.8571428571428571,
+  "precision_positive": 0.8382352941176471
+}

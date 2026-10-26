@@ -1,0 +1,16 @@
+model,error_type,count
+baseline,negative__to__positive,1
+baseline,neutral__to__negative,92
+baseline,neutral__to__positive,230
+baseline,positive__to__negative,20
+full_finetuning,negative__to__neutral,2
+full_finetuning,negative__to__positive,3
+full_finetuning,neutral__to__negative,1
+full_finetuning,neutral__to__positive,19
+full_finetuning,positive__to__negative,1
+full_finetuning,positive__to__neutral,16
+lora_r16,negative__to__neutral,2
+lora_r16,negative__to__positive,3
+lora_r16,neutral__to__positive,19
+lora_r16,positive__to__negative,3
+lora_r16,positive__to__neutral,16

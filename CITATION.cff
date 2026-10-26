@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "Please cite this coursework project using these details."
+title: "Comparative FLAN-T5 Fine-Tuning for Financial Sentiment Classification"
+authors:
+  - family-names: Adimalla
+    given-names: Sampath
+affiliation: Coventry University
+version: 1.0.0
